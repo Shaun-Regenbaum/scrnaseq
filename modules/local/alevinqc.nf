@@ -1,6 +1,6 @@
 process ALEVINQC {
     tag "$meta.id"
-    label 'process_low'
+    label 'process_high'
 
     //The alevinqc 1.14.0 container is broken, missing some libraries - thus reverting this to previous 1.12.1 version
     conda "bioconda::bioconductor-alevinqc=1.12.1"
